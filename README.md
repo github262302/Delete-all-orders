@@ -19,7 +19,7 @@ async function task() {
   await sleep();
   document.querySelector(".btn-1.delete-order").click();
 }
-setInterval(task, 200);
+setInterval(task, 400);
 ```
 
 > jd
@@ -37,7 +37,7 @@ async function sleep() {
     }, 200);
   });
 }
-setInterval(task, 200);
+setInterval(task, 400);
 ```
 
 tips: 欢迎补充其他网站的删除订单脚本
